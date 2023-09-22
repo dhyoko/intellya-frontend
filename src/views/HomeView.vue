@@ -4,6 +4,7 @@
   import { defineComponent } from 'vue';
   import Layout from '@/components/Layout.vue';
   import UserTable from '@/components/UserTable.vue';
+  import PageLoader from '@/components/PageLoader.vue';
 
   export default defineComponent({
     name: 'HomeView',
@@ -16,7 +17,8 @@
     },
     components: {
       Layout,
-      UserTable
+      UserTable,
+      PageLoader
     },
     async mounted() {
       try {
@@ -47,7 +49,12 @@
       title='Listagem de Usuário'
       subtitle='Visualize os usuários que acessam sua plataforma.'
     >
+      <PageLoader v-if='isLoading'></PageLoader>
+      <p v-else-if='!isLoading && errorMessage'>
+        Ocorreu um problema, tente novamente mais tarde.
+      </p>
       <UserTable
+        v-else
         :user-list='userList'
       ></UserTable>
     </Layout>
