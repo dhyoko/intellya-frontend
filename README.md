@@ -1,25 +1,21 @@
 # intellya-frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the front challenge submitted for the ZenoX AI open position
 
-## Recommended IDE Setup
+## Preview
+- Desktop
+  
+![image](https://github.com/dhyoko/intellya-frontend/assets/42620936/cb5298f4-72a0-41b5-941a-22c011049639)
+![image](https://github.com/dhyoko/intellya-frontend/assets/42620936/dc120e5c-3dee-4bd5-b01d-8fb93747cff6)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<br/>
 
-## Type Support for `.vue` Imports in TS
+- Mobile
+  
+![image](https://github.com/dhyoko/intellya-frontend/assets/42620936/038fe209-3657-48a4-9f8f-2824a3d5143c)
+![image](https://github.com/dhyoko/intellya-frontend/assets/42620936/fd50f365-5ba2-472c-a99d-c4817526ce09)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
