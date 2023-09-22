@@ -1,11 +1,12 @@
 <script lang='ts'>
-  export default {
+  import { defineComponent } from 'vue';
+  export default defineComponent({
     name: 'ContentLayout',
     props: {
       title: String,
       subtitle: String
     }
-  }
+  })
 </script>
 
 <template>
