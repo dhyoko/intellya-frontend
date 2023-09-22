@@ -1,7 +1,10 @@
+@use "sass:color";
+
 $colors: (
   soft-black: #00000066,
   soft-gold: #e4cab5,
   camel:#b09e71,
+  camel-hover: adjust-color(#b09e71, $saturation: 0%, $lightness: -30%),
   text-default: #000000DD,
   background-default: #fff
 );

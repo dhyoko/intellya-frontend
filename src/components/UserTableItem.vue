@@ -40,6 +40,10 @@
 <style scoped lang='scss'>
   .custom-link {
     text-decoration: none;
-    color: map-get($colors, 'camel')
+    color: map-get($colors, 'camel');
+
+    &:hover {
+      color: map-get($colors, 'camel-hover');
+    }
   }
 </style>
