@@ -17,7 +17,7 @@
 
 <template>
   <div class='table-responsive-lg'>
-    <table class="table">
+    <table class="table table-hover align-middle">
       <thead>
         <tr>
           <th scope="col">ID</th>
