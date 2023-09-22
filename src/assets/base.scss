@@ -1,5 +1,6 @@
 $colors: (
-  gold: #e4cab5,
+  soft-black: #00000066,
+  soft-gold: #e4cab5,
   camel:#b09e71,
   text-default: #000000DD,
   background-default: #fff
@@ -15,8 +16,8 @@ $colors: (
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
+  color: map-get($colors, 'text-default');
+  background: map-get($colors, 'background-default');
   transition:
     color 0.5s,
     background-color 0.5s;

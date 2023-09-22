@@ -1,13 +1,15 @@
 <script lang='ts'>
   import { RouterLink } from 'vue-router'
   import SearchIcon from './icons/SearchIcon.vue'
-  export default {
+  import { defineComponent } from 'vue';
+
+  export default defineComponent({
     name: 'header-app',
     components: {
       RouterLink,
       SearchIcon
     }
-  }
+  })
 </script>
 
 <template>
@@ -55,7 +57,7 @@
           left: 0;
           width: 100%;
           height: 3px;
-          background-color: map-get($colors, 'camel');
+          background-color: map-get($colors, 'soft-gold');
         }
       }
     }        
