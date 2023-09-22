@@ -26,7 +26,7 @@
           </li>
         </ul>
         <form class="search d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
           <button type="submit"><SearchIcon></SearchIcon></button>
         </form>
       </div>
@@ -51,7 +51,7 @@
         &::after {
           position: absolute;
           content: "";
-          bottom: -17px;
+          bottom: -14px;
           left: 0;
           width: 100%;
           height: 3px;
