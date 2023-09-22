@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <nav class='navbar navbar-expand-lg navbar-light bg-light border-bottom'>
+  <nav class='navbar navbar-expand-lg navbar-light border-bottom'>
     <div class='container-xxl'>
       <a class="navbar-brand" href="#">
         <img src='@/assets/logo.png' alt='logo' height='50'/>
@@ -38,22 +38,27 @@
   .navbar-brand {
     margin-right: 30px;
   }
+  .navbar-collapse {
+    padding-top: 10px;
+  }
   .nav-item {
     position: relative;
     font-weight: 700;
     
-    &.active,
-    &:hover {
-      &::after {
-        position: absolute;
-        content: "";
-        bottom: -17px;
-        left: 0;
-        width: 100%;
-        height: 3px;
-        background-color: var(--color-camel);
+    @include breakpoint-md {
+      &.active,
+      &:hover {
+        &::after {
+          position: absolute;
+          content: "";
+          bottom: -17px;
+          left: 0;
+          width: 100%;
+          height: 3px;
+          background-color: map-get($colors, 'camel');
+        }
       }
-    }    
+    }        
   }
 
   .search {

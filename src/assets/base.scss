@@ -1,10 +1,9 @@
-/* color palette from <https://github.com/vuejs/theme> */
-:root {
-  --color-gold: #e4cab5;
-  --color-camel: #b09e71;
-  --color-text: #000000DD;
-  --color-background: #fff;
-}
+$colors: (
+  gold: #e4cab5,
+  camel:#b09e71,
+  text-default: #000000DD,
+  background-default: #fff
+);
 
 *,
 *::before,
