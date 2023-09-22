@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item active">
-            <RouterLink class="nav-link" aria-current="page" to="#">Usuário</RouterLink>
+            <RouterLink class="nav-link" aria-current="page" to="/">Usuário</RouterLink>
           </li>
         </ul>
         <form class="search d-flex">
